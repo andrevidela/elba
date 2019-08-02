@@ -18,7 +18,7 @@ There are three options for installing elba:
 2.  Install the package from Rust's crates.io repository using
     `cargo install elba`
 3.  Manually build and install elba yourself using the source code with
-    `git clone https://github.com/elba/elba.git && cd elba && cargo install`.
+    `git clone https://github.com/elba/elba.git && cd elba && cargo install --path .`.
     
 To build, elba requires Rust 1.31 or greater.
 
